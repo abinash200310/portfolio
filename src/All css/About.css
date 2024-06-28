@@ -1,0 +1,29 @@
+:root {
+    --glow-color: hsl(186, 100%, 69%);
+  }
+.mainbg{
+  height: 100%;
+   background-image: url(/public/images/about.jpg);
+   
+   min-height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+
+
+.style{
+    color: azure;
+
+}
+.shado{
+    box-shadow: 10px 10px 17px white;
+}
+
+
+.shado:hover{
+    box-shadow: 5px 5px  50px var(--glow-color) ;
+}
+
